@@ -1,0 +1,66 @@
+body{
+    background-color: #0D0D0D;
+    color: #f9f6f6 !important;
+    /* overflow: hidden; */
+}
+.nav-tab{
+    background-color: #0D0D0D;
+}
+
+.logo{
+    width: 50px;
+}
+
+i{
+    cursor: pointer;
+}
+.side-nav-menu{
+    z-index: 500;
+}
+.bg-info>img{
+    width: 100%;
+}
+.layer{
+    background-color: rgba(255, 255, 255,0.4);
+    display: flex;
+    opacity: 0;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    color: black;
+    font-size: 1rem;
+    transition: 1s;
+}
+.layer:hover{
+    opacity: 1;
+}
+
+.rece{
+    color: #055160;
+    background-color: #cff4fc;
+
+}
+.tago{
+    color: #842029;
+    background-color: #f8d7da;
+}
+.desc{
+    overflow: hidden;
+}
+.ingredHeight{
+    height: 3rem;
+    overflow: hidden;
+}
+.formContainer{
+    width: 80%;
+    margin: auto;
+
+}
+
+
+
+
